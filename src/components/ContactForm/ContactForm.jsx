@@ -36,7 +36,7 @@ export default function ContactForm ({ onAdd }) {
           </label>
           <label htmlFor={numberId}>
             <span className={css.label}>Number:</span>
-            <Field className={css.input} type="number" name="number" id={numberId}/>
+            <Field className={css.input} type="text" name="number" id={numberId}/>
             <ErrorMessage className={css.error} name="number" component='div'/>
           </label>
           <button className={css.btn} type="submit">Add contact</button>
